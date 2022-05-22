@@ -1,0 +1,134 @@
+@font-face {
+    font-family: archia;
+    src: url(../font/Archia-Regular.otf);
+}
+:root{
+    --bg-primary-color: linear-gradient(238.82deg, #559366 -8.92%, #01FEE8 0.41%, #FF734F 74.92%, #FF3835 87.88%);
+    --archia: 'archia';
+    --font-color: #000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    background: var(--bg-primary-color) fixed;
+}
+li, a{
+    text-decoration: none !important;
+    list-style: none;
+    color: var(--font-color) !important;
+    font-size: 16px;
+    font-family: var(--archia);
+}
+h1,h2,h3,h4{
+    font-family: var(--archia) !important;
+color: #000 !important;}
+/***************header****************/
+.menu{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    height: 100px;
+}
+.menu__navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+}
+.menu__navbar__navegacao{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+.menu__navbar__icones{
+    display: flex;
+
+}
+.menu__navbar__icones__icone img{
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+.menu__navbar__login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__navbar__login li{
+    margin: 0 15px;
+}
+.menu__navbar__login__background{
+    width: 244px;
+    height: 40px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.menu__navbar__login__background a{
+    color: #fff !important;
+}
+/***********menu_hamb***********/
+.head__hamb{
+    display: none;
+}
+@media (max-width: 1280px){
+    .menu__navbar{
+        box-sizing: border-box;
+        box-shadow: 2px 0px 20px #000;
+        position: fixed;
+        display: flex;
+        flex-wrap: wrap;
+        right: -70%;
+        z-index: 333;top: 0;
+        height: 100%;
+        width: 70%;
+        background-color: #fff;
+        transition: .3s;
+    }
+    .menu__navbar.active{
+        right: 0;
+    }
+    .head__hamb{
+        display: block;
+        z-index: 9999;
+    }
+    .head__hamb img{
+        width: 40px;
+    }
+    .menu__navbar__navegacao{
+        margin-top: 20px;
+        display: block;
+        width: 100%;
+    }
+    .menu__navbar__navegacao li{
+        text-align: center;
+        margin: 30px 0;
+    }
+    .menu__navbar__icones{
+        justify-content: center;
+        width: 100%;
+    }
+    .menu__navbar__icones img{
+        margin: 0 15px;
+    }
+    .menu__navbar__login{
+        display: block;
+        width: 100%;
+    }
+    .menu__navbar__login li{
+        text-align: center;
+        margin: 30px auto;
+    }
+}
+/*fim menu*/
+#carrossel{
+    height: 1300px;
+    background-color: #000;
+}
