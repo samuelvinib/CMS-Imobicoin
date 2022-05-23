@@ -11,8 +11,10 @@
     <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
 </head>
 
 <body>
@@ -26,8 +28,8 @@
                 <!-- Cloned navbar that comes in on scroll -->
                 <header class="menu">
                     <a href="index.html"><img src="img/logo/logo.svg" alt="logo" title="logo"></a>
-                    <span class="head__hamb" data-hamb=""><img data-close="" src="img/icons/menu.svg" alt="menu hamburguer"
-                            title="menu"></span>
+                    <span class="head__hamb" data-hamb=""><img data-close="" src="img/icons/menu.svg"
+                            alt="menu hamburguer" title="menu"></span>
                     <nav class="menu__navbar" data-menu="">
                         <ul class="menu__navbar__navegacao">
                             <li><a href="#">SOBRE</a></li>
@@ -88,7 +90,10 @@
         <!-- /Landing page Hero -->
         <!-- Icon Features section -->
         <section id="carrossel">
-
+            <div id="owl-slider" class="owl-carousel">
+                <img src="img/logo/logo2.svg" alt="">
+                <img src="img/logo/logo3.svg" alt="">
+            </div>
         </section>
 
         <!-- /Icon Features section -->
@@ -140,9 +145,6 @@
                     </div>
 
                     <!-- Feature image only for mobile -->
-                    <div class="column is-7 is-hidden-desktop is-hidden-tablet">
-                        <img class="side-feature" src="img/illustrations/blockchain-blocks.svg" alt="">
-                    </div>
                 </div>
             </div>
     </div>
@@ -273,7 +275,11 @@
                             <img src="img/media/grant-thornton.svg" alt="" data-aos="fade-up" data-aos-delay="100"
                                 data-aos-offset="200" data-aos-easing="ease-out-quart">
                             <h4 class="title is-6 is-tight is-light">GRAND THORNTON</h4>
-                            <p class="column is-8">Atuamos em conjunto com nossos clientes para compreender as singularidades e os riscos do negócio. Oferecemos análise independente e eficaz das demonstrações financeiras para gerar insights profundos e suportar as tomadas de decisões estratégicas de forma assertiva, atendendo as exigências dos acionistas, proprietários, investidores e demais stakeholders.</p>
+                            <p class="column is-8">Atuamos em conjunto com nossos clientes para compreender as
+                                singularidades e os riscos do negócio. Oferecemos análise independente e eficaz das
+                                demonstrações financeiras para gerar insights profundos e suportar as tomadas de
+                                decisões estratégicas de forma assertiva, atendendo as exigências dos acionistas,
+                                proprietários, investidores e demais stakeholders.</p>
                             <a href="#">saiba mais...</a>
                         </div>
                     </div>
@@ -283,7 +289,11 @@
                             <img src="img/media/elytron.svg" alt="" data-aos="fade-up" data-aos-delay="300"
                                 data-aos-offset="200" data-aos-easing="ease-out-quart">
                             <h4 class="title is-6 is-tight is-light">ELYTRON SECURITY</h4>
-                            <p class="column is-8">A Elytron foi fundada com a missão de promover proteção e sigilo aos dados de todos os tipos de negócios através do fornecimento de tecnologias avançadas e serviços especializados, especializada em Consultoria e Auditoria de Segurança da Informação através de seus clientes e parceiros, ajuda a proteger os dados de mais de 2.5 bilhões de pessoas ao redor do mundo.</p>
+                            <p class="column is-8">A Elytron foi fundada com a missão de promover proteção e sigilo aos
+                                dados de todos os tipos de negócios através do fornecimento de tecnologias avançadas e
+                                serviços especializados, especializada em Consultoria e Auditoria de Segurança da
+                                Informação através de seus clientes e parceiros, ajuda a proteger os dados de mais de
+                                2.5 bilhões de pessoas ao redor do mundo.</p>
                             <a href="#">saiba mais...</a>
                         </div>
                     </div>
@@ -293,7 +303,9 @@
                             <img src="img/media/cte.svg" alt="" data-aos="fade-up" data-aos-delay="500"
                                 data-aos-offset="200" data-aos-easing="ease-out-quart">
                             <h4 class="title is-6 is-tight is-light">CTE</h4>
-                            <p class="column is-8">Uma empresa de consultoria e gerenciamento especializada em qualidade, tecnologia, gestão, sustentabilidade e inovação para o setor da construção.</p>
+                            <p class="column is-8">Uma empresa de consultoria e gerenciamento especializada em
+                                qualidade, tecnologia, gestão, sustentabilidade e inovação para o setor da construção.
+                            </p>
                             <a href="#">saiba mais...</a>
                         </div>
                     </div>
@@ -303,413 +315,67 @@
         </div>
         <!-- /Container -->
     </section>
-    <!-- /App section -->
-    <!-- Company section -->
-    <section class="section is-medium has-big-dark-gradient">
-        <!-- Container -->
-        <div class="container">
-            <!-- Content wrapper -->
-            <div class="content-wrapper is-large">
-                <!-- Spaced divider -->
-                <div class="divider is-centered is-spacer"></div>
-                <!-- Title & subtitle -->
-                <h2 class="title is-light is-semibold has-text-centered is-spaced">FAQ</h2>
-                <h4 class="subtitle is-6 is-light has-text-centered is-compact">Viderer malorum sadipscing cum ei.
-                    Eu impetus perfecto sit, no sea labore detraxit. Primis mediocrem necessitatibus an vis. Ut sea
-                    pertinax perpetua, eruditi volumus quaestio ex mel, has ei tota homero.</h4>
-                <!-- Content wrapper -->
-                <div class="content-wrapper is-large">
-                    <div class="columns">
-                        <div class="column is-5 is-offset-1">
-                            <!-- Accordion -->
-                            <div class="accordion">
-                                <!-- Option -->
-                                <div class="accordion-option">
-                                    <input type="checkbox" id="toggle1" class="accordion-toggle" />
-                                    <label class="accordion-title" for="toggle1">
-                                        What is Blockchain ?
-                                    </label>
-                                    <div class="accordion-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                            ex ea commodo consequat.
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- Option -->
-                                <div class="accordion-option">
-                                    <input type="checkbox" id="toggle2" class="accordion-toggle" />
-                                    <label class="accordion-title" for="toggle2">
-                                        What is ICO ?
-                                    </label>
-                                    <div class="accordion-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                            ex ea commodo consequat.
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- Option -->
-                                <div class="accordion-option">
-                                    <input type="checkbox" id="toggle3" class="accordion-toggle" />
-                                    <label class="accordion-title" for="toggle3">
-                                        Where to get the Whitepaper ?
-                                    </label>
-                                    <div class="accordion-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                            ex ea commodo consequat.
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- Option -->
-                                <div class="accordion-option">
-                                    <input type="checkbox" id="toggle4" class="accordion-toggle" />
-                                    <label class="accordion-title" for="toggle4">
-                                        What is Krypton Core Innovation ?
-                                    </label>
-                                    <div class="accordion-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                            ex ea commodo consequat.
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- Option -->
-                                <div class="accordion-option">
-                                    <input type="checkbox" id="toggle5" class="accordion-toggle" />
-                                    <label class="accordion-title" for="toggle5">
-                                        When will be the platform released ?
-                                    </label>
-                                    <div class="accordion-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                            ex ea commodo consequat.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Accordion -->
-                        </div>
-                        <div class="column is-5">
-                            <!-- Accordion -->
-                            <div class="accordion">
-                                <!-- Option -->
-                                <div class="accordion-option">
-                                    <input type="checkbox" id="toggle6" class="accordion-toggle" />
-                                    <label class="accordion-title" for="toggle6">
-                                        How much tokens will be sold ?
-                                    </label>
-                                    <div class="accordion-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                            ex ea commodo consequat.
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- Option -->
-                                <div class="accordion-option">
-                                    <input type="checkbox" id="toggle7" class="accordion-toggle" />
-                                    <label class="accordion-title" for="toggle7">
-                                        What happens if Soft Cap isn't reached ?
-                                    </label>
-                                    <div class="accordion-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                            ex ea commodo consequat.
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- Option -->
-                                <div class="accordion-option">
-                                    <input type="checkbox" id="toggle8" class="accordion-toggle" />
-                                    <label class="accordion-title" for="toggle8">
-                                        How much do you want to raise with the ICO ?
-                                    </label>
-                                    <div class="accordion-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                            ex ea commodo consequat.
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- Option -->
-                                <div class="accordion-option">
-                                    <input type="checkbox" id="toggle9" class="accordion-toggle" />
-                                    <label class="accordion-title" for="toggle9">
-                                        When will the tokens be distributed ?
-                                    </label>
-                                    <div class="accordion-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                            ex ea commodo consequat.
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- Option -->
-                                <div class="accordion-option">
-                                    <input type="checkbox" id="toggle10" class="accordion-toggle" />
-                                    <label class="accordion-title" for="toggle10">
-                                        Will their be Bounties ?
-                                    </label>
-                                    <div class="accordion-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                            ex ea commodo consequat.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Accordion -->
-                        </div>
+    <section class="columns section is-medium is-darkest">
+        <article class="column is-7">
+            <h2 class="title is-1">ENTRE EM CONTATO<br>PARA SABER MAIS</h2>
+        </article>
+        <aside class="column is-5">
+            <form action="">
+                <div class="control columns Container__radioBox">
+                    <div class="column is-5 radioBox">
+                        <label class="radio">
+                            <input type="radio" name="answer" checked>
+                            Sou comprador(a)
+                        </label>
+                    </div>
+                    <div class="column is-5 radioBox">
+                        <label class="radio">
+                            <input type="radio" name="answer">
+                            Sou incorporador(a)
+                        </label>
                     </div>
                 </div>
-                <!-- /Content wrapper -->
-                <!-- Spaced divider -->
-                <div class="divider is-centered is-spacer"></div>
-                <!-- Title & subtitle -->
-                <h2 class="title is-light is-semibold has-text-centered is-spaced">Blog</h2>
-                <h4 class="subtitle is-6 is-light has-text-centered is-compact">Viderer malorum sadipscing cum ei.
-                    Eu impetus perfecto sit, no sea labore detraxit. Primis mediocrem necessitatibus an vis. Ut sea
-                    pertinax perpetua, eruditi volumus quaestio ex mel, has ei tota homero.</h4>
-                <!-- Content wrapper -->
-                <div class="content-wrapper is-large">
-                    <div class="columns">
-                        <!-- Media section -->
-                        <div class="column is-10 is-offset-1">
-                            <!-- Post -->
-                            <div class="blog-post">
-                                <a href="#">
-                                    <!-- Featured image -->
-                                    <div class="featured-image">
-                                        <img src="img/media/post1.svg" alt="">
-                                    </div>
-                                    <!-- Content -->
-                                    <div class="content">
-                                        <div class="post-title">Blockchain for dummies <span
-                                                class="blog-date">27.05.2021</span></div>
-                                        <p>
-                                            Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.
-                                            Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı...
-                                        </p>
-                                        <!-- Meta -->
-                                        <div class="post-meta">
-                                            <div class="author-block">
-                                                <div class="image is-32x32">
-                                                    <img src="img/team/john.jpg" alt="">
-                                                </div>
-                                                <div class="author-name">by John Cambell</div>
-                                            </div>
-                                            <div class="stats-block">
-                                                <div class="comments">
-                                                    <i data-feather="message-circle"></i>
-                                                    <span>3</span>
-                                                </div>
-                                                <div class="likes">
-                                                    <i data-feather="heart"></i>
-                                                    <span>9</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- Post -->
+                <label class="label">Nome</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="">
+                </div>
+                <label class="label">E-mail</label>
+                <div class="control">
+                    <input class="input" type="email" placeholder="">
+                </div>
+                <label class="label">Celular</label>
+                <div class="control">
+                    <input class="input" type="tel" placeholder="">
+                </div>
+                <label class="label">Mensagem</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="">
+                </div>
+                <div class="control">
+                    <button class="button is-primary">Enviar</button>
+                </div>
+            </form>
+        </aside>
+    </section>
 
-                        </div>
-                        <!-- /Media section -->
-                    </div>
-                    <!-- CTA -->
-                    <div class="cta-wrapper has-text-centered">
-                        <a href="#" class="button k-button k-primary raised has-gradient is-fat is-bold">
-                            <span class="text">More Articles</span>
-                            <span class="front-gradient"></span>
-                        </a>
-                    </div>
-                </div>
-                <!-- /Content wrapper -->
-            </div>
-            <!-- /Content wrapper -->
-        </div>
-    </section>
-    <section id="start" class="section is-transparent is-relative">
-        <!-- Container -->
-        <div class="container">
-            <!-- Content wrapper -->
-            <div class="content-wrapper is-medium">
-                <div class="columns is-vcentered">
-                    <!-- Feature -->
-                    <div class="column is-4">
-                        <div class="feature">
-                            <img src="img/icons/chained.svg" alt="" data-aos="fade-up" data-aos-delay="100"
-                                data-aos-offset="200" data-aos-easing="ease-out-quart">
-                            <h4 class="title is-6 is-tight is-light">Chaining</h4>
-                            <p>Supercharged features to make you happy and lorem ipsum sit dolor amet</p>
-                        </div>
-                    </div>
-                    <!-- Feature -->
-                    <div class="column is-4">
-                        <div class="feature">
-                            <img src="img/icons/stacked.svg" alt="" data-aos="fade-up" data-aos-delay="300"
-                                data-aos-offset="200" data-aos-easing="ease-out-quart">
-                            <h4 class="title is-6 is-tight is-light">Stacking</h4>
-                            <p>Supercharged features to make you happy and lorem ipsum sit dolor amet</p>
-                        </div>
-                    </div>
-                    <!-- Feature -->
-                    <div class="column is-4">
-                        <div class="feature">
-                            <img src="img/icons/compact.svg" alt="" data-aos="fade-up" data-aos-delay="500"
-                                data-aos-offset="200" data-aos-easing="ease-out-quart">
-                            <h4 class="title is-6 is-tight is-light">Managing</h4>
-                            <p>Supercharged features to make you happy and lorem ipsum sit dolor amet</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Content wrapper -->
-        </div>
-        <!-- /Container -->
-    </section>
-    <!-- /Company section -->
-    <!-- Contact section -->
-    <section class="section is-medium is-darkest">
-        <!-- Container -->
-        <div class="container">
-            <!-- Divider -->
-            <div class="divider is-centered"></div>
-            <!-- Title & subtitle -->
-            <h2 class="title is-light is-semibold has-text-centered is-spaced">Get in Touch</h2>
-            <h4 class="subtitle is-6 is-light has-text-centered is-compact">Viderer malorum sadipscing cum ei. Eu
-                impetus perfecto sit, no sea labore detraxit. Primis mediocrem necessitatibus an vis. Ut sea
-                pertinax perpetua, eruditi volumus quaestio ex mel, has ei tota homero.</h4>
-            <!-- Content wrapper -->
-            <div class="content-wrapper is-large">
-                <div class="columns">
-                    <div class="column is-8 is-offset-2">
-                        <!-- Contact icons -->
-                        <div class="contact-icons">
-                            <!-- Phone -->
-                            <a class="contact-icon" data-aos="fade-up" data-aos-delay="100" data-aos-offset="200"
-                                data-aos-easing="ease-out-quart">
-                                <img class="is-phone" src="img/icons/phone.svg" alt="">
-                            </a>
-                            <!-- Mail -->
-                            <a class="contact-icon" data-aos="fade-up" data-aos-delay="300" data-aos-offset="200"
-                                data-aos-easing="ease-out-quart">
-                                <img class="is-phone" src="img/icons/mail.svg" alt="">
-                            </a>
-                            <!-- Telegram -->
-                            <a class="contact-icon" data-aos="fade-up" data-aos-delay="500" data-aos-offset="200"
-                                data-aos-easing="ease-out-quart">
-                                <img class="is-telegram" src="img/logo/telegram.svg" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="columns">
-                    <div class="column is-6 is-offset-3">
-                        <!-- Form -->
-                        <form class="contact-form">
-                            <!-- Field -->
-                            <div class="control-material is-secondary">
-                                <input class="material-input " type="text" required>
-                                <span class="material-highlight"></span>
-                                <span class="bar"></span>
-                                <label>Name</label>
-                            </div>
-                            <!-- Field -->
-                            <div class="control-material is-secondary">
-                                <input class="material-input " type="email" required>
-                                <span class="material-highlight"></span>
-                                <span class="bar"></span>
-                                <label>Email</label>
-                            </div>
-                            <!-- Field -->
-                            <div class="control-material is-secondary">
-                                <textarea rows="3"></textarea>
-                                <span class="material-highlight"></span>
-                                <span class="bar"></span>
-                                <label>Message </label>
-                            </div>
-                            <!-- Submit -->
-                            <div class="has-text-centered">
-                                <button
-                                    class="button is-button k-button k-primary raised has-gradient is-fat is-bold is-submit">
-                                    <span class="text">Send message</span>
-                                    <span class="front-gradient"></span>
-                                </button>
-                            </div>
-                        </form>
-                        <!-- /Form -->
-                    </div>
-                </div>
-            </div>
-            <!-- Content wrapper -->
-        </div>
-        <!-- Container -->
-    </section>
-    
     <!-- Contact section -->
     </div>
-    <footer class="krypton-footer">
-        <div class="container">
-            <!-- Logo -->
-            <div class="footer-logo">
-                <a href="#">
-                    <img src="img/logo/logo.png" alt="">
-                </a>
-            </div>
-            <!-- Columns -->
-            <div class="columns footer-columns is-vcentered">
-                <div class="column is-4">
-                    <!-- Links group -->
-                    <ul class="footer-links">
-                        <li>
-                            <a href="#">Blog</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Newsletter -->
-                <div class="column is-4">
-                    <div class="subscribe-block">
-                        <form>
-                            <!-- Field -->
-                            <div class="control">
-                                <!-- Special input -->
-                                <input class="krypton-subscribe-input" type="email" name="email" placeholder="">
-                                <button class="subscribe-button">
-                                    <span>Subscribe</span>
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <!-- Links group -->
-                <div class="column is-4">
-                    <ul class="footer-links">
-                        <li>
-                            <a href="#">admin</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Copyright -->
-            <p class="k-copyright">© 2022 | All Rights Reserved</p>
-            <br>
+    <footer id="container__footer" class="columns ">
+        <ul class=" columns column is-4 container__footer__links">
+            <li class="column is-3"><a href="#">SOBRE</a></li>
+            <li class="column is-3"><a href="#">IMPRENSA</a></li>
+            <li class="column is-6"><a href="#">POLITICA DE PRIVACIDADE</a></li>
+        </ul>
+        <a class="column is-2" href="#"><img src="img/icons/icone.svg" alt="logo imobicoin" title="imobicoin"></a>
+        <div class="columns column  is-4 container__footer__contato">
+            <div class="column is-7"><a href="mailto:example@imobicoin.com">contato@imobicoin.com</a></div>
+            <ul id="icones" class="column is-5">
+            <li ><a href="#"><img src="img/icons/discord.svg" alt="logo discord"></a></li>
+            <li ><a href="#"><img src="img/icons/instagram.svg" alt="logo instagram"></a></li>
+            <li ><a href="#"><img src="img/icons/twitter.svg" alt="logo twitter"></a></li> 
+            </ul>
+
         </div>
-        <!-- Absolute image -->
-        <img class="solar-system" src="img/bg/solar.svg" alt="">
     </footer>
     <!-- Back To Top Button -->
     <div x-data="initBackToTop()" x-on:scroll.window="scroll($event)" @click="goTop($event)" id="backtotop">
@@ -721,6 +387,29 @@
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="./js/bundle.js"></script>
     <script src="js/menu_hamb.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+    rtl:true,
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+    </script>
 </body>
 
 </html>

@@ -1415,14 +1415,14 @@ fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
 }
 
 .button.is-primary {
-    background-color: #7f00ff;
+    background-color: #606060;
     border-color: transparent;
     color: #fff
-}
+;width: 100%;margin-top: 18px;}
 
 .button.is-primary:hover,
 .button.is-primary.is-hovered {
-    background-color: #7900f2;
+    background-color: #686868;
     border-color: transparent;
     color: #fff
 }
@@ -4246,7 +4246,7 @@ fieldset[disabled] .input:-ms-input-placeholder {
     cursor: pointer;
     display: inline-block;
     line-height: 1.25;
-    position: relative
+    overflow: hidden;color: #fff;position: relative
 }
 
 .radio input,
@@ -4256,8 +4256,7 @@ fieldset[disabled] .input:-ms-input-placeholder {
 
 .radio:hover,
 .checkbox:hover {
-    color: #363636
-}
+    color: #ffffff;}
 
 [disabled].radio,
 [disabled].checkbox,
@@ -5090,7 +5089,7 @@ fieldset[disabled] .select select:hover {
 }
 
 .label {
-    color: #363636;
+    color: #ffffff;
     display: block;
     font-size: 1rem;
     font-weight: 700
@@ -8909,6 +8908,8 @@ print {
         flex: none;
         width: 41.6666666667%
     }
+
+.radioBox {;border: 1px solid #fff;margin: 20px 14px;border-radius: 5px;}
     .column.is-offset-5,
     .column.is-offset-5-tablet {
         margin-left: 41.6666666667%
@@ -9631,16 +9632,15 @@ print {
 .columns {
     margin-left: -0.75rem;
     margin-right: -0.75rem;
-    margin-top: -0.75rem
-}
+    }
 
 .columns:last-child {
-    margin-bottom: -0.75rem
-}
+    }
 
 .columns:not(:last-child) {
-    margin-bottom: calc(1.5rem - 0.75rem)
-}
+    }
+
+.Container__radioBox {justify-content: space-between;}
 
 .columns.is-centered {
     -webkit-box-pack: center;
@@ -9691,7 +9691,7 @@ print {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex
-    }
+    ;align-items: center;}
 }
 
 @media screen and (min-width: 1024px) {
@@ -14976,7 +14976,7 @@ body {
     background: #000000;}
 .section.is-darkest p, .section.is-darkest h2, .section.is-darkest h1, .section.is-darkest span{
     color: #fff !important;
-}
+overflow: hidden;text-align: center;}
 .section.is-darkest .divider{
     background-color: #fff;
 }
