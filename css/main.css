@@ -1420,6 +1420,8 @@ fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
     color: #fff
 ;width: 100%;margin-top: 18px;}
 
+#lancamentos button {background: #000;}
+
 .button.is-primary:hover,
 .button.is-primary.is-hovered {
     background-color: #686868;
@@ -3773,7 +3775,7 @@ a.tag:hover {
 
 .title.is-2 {
     font-size: 2.5rem
-}
+;overflow: hidden;}
 
 .title.is-3 {
     font-size: 2rem

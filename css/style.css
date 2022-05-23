@@ -157,22 +157,15 @@ justify-content: space-around;}
         justify-content: center;
     }
 }
-/*
-#container__footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 100px;
+/*banner*/
+#lancamentos{
+    padding: 80px;
+    height: auto;
+    top: 40px;
+    margin: 0 auto;
+    background-color: #606060;
+    position: relative;
 }
-#container__footer li{
-    margin: 0 10px;
+#lancamentos p, #lancamentos h2{
+    color: #fff !important;
 }
-.container__footer__links{
-    display: flex;
-}
-.container__footer__contato{
-    display: flex;
-}
-.container__footer__contato li{
-    margin: 0 10px;
-}*/
