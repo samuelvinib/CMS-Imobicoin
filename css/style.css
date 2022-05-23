@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 body{
     background: var(--bg-primary-color) fixed;
@@ -136,9 +137,10 @@ color: #000 !important;}
 }
 /*fim menu*/
 #carrossel{
-    height: 1300px;
     background-color: #000;
 }
+/*container*/
+/*fim container*/
 /*footer*/
 #container__footer{
     padding: 20px 0;
@@ -149,6 +151,7 @@ justify-content: space-around;}
 #icones li{
     margin: 0 10px;
 }
+
 @media(max-width: 1024px){
     #container__footer{
         text-align: center;

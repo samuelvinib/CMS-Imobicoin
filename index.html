@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 </head>
 
 <body>
@@ -36,7 +36,7 @@
                             <li><a href="#">CARBON</a></li>
                             <li><a href="#">OXYGEN</a></li>
                             <li><a href="#">GOVERNANÇA</a></li>
-                            <li><a href="#">CONTATO</a></li>
+                            <li><a href="#contato">CONTATO</a></li>
                         </ul>
                         <ul class="menu__navbar__icones">
                             <li class="menu__navbar__icones__icone"><img src="img/icons/eng.svg" alt="english"></li>
@@ -91,7 +91,7 @@
         <section class="columns column is-11" id="lancamentos">
             <article class="column is-6">
                 <h2 class="title is-2 has-text-centered	">ACOMPANHE OS NOVOS<br>LANÇAMENTOS</h2>
-                <p class="has-text-centered	">"HORARIO"</p>
+                <p class="has-text-centered	subtitle is-2">40 : 05 : 23 : 58</p>
             </article>
             <aside class="column is-6">
                 <div class="field">
@@ -112,11 +112,23 @@
             </aside>
         </section>
         <!-- Icon Features section -->
-        <section id="carrossel">
-            <div id="owl-slider" class="owl-carousel">
-                <img src="img/logo/logo2.svg" alt="">
-                <img src="img/logo/logo3.svg" alt="">
+        <section class="columns">
+            <div class="column is-4"></div>
+            <div class="owl-carousel owl-theme m-auto">
+                <div class="item"><h4>1</h4></div>
+                <div class="item"><h4>2</h4></div>
+                <div class="item"><h4>3</h4></div>
+                <div class="item"><h4>4</h4></div>
+                <div class="item"><h4>5</h4></div>
+                <div class="item"><h4>6</h4></div>
+                <div class="item"><h4>7</h4></div>
+                <div class="item"><h4>8</h4></div>
+                <div class="item"><h4>9</h4></div>
+                <div class="item"><h4>10</h4></div>
+                <div class="item"><h4>11</h4></div>
+                <div class="item"><h4>12</h4></div>
             </div>
+            <div class="column is-4"></div>
         </section>
 
         <!-- /Icon Features section -->
@@ -338,7 +350,7 @@
         </div>
         <!-- /Container -->
     </section>
-    <section class="columns section is-medium is-darkest">
+    <section id="contato" class="columns section is-medium is-darkest">
         <article class="column is-7">
             <h2 class="title is-1">ENTRE EM CONTATO<br>PARA SABER MAIS</h2>
         </article>
@@ -385,7 +397,7 @@
     </div>
     <footer id="container__footer" class="columns ">
         <ul class=" columns column is-4 container__footer__links">
-            <li class="column is-3"><a href="#">SOBRE</a></li>
+            <li class="column is-2"><a href="#">SOBRE</a></li>
             <li class="column is-3"><a href="#">IMPRENSA</a></li>
             <li class="column is-6"><a href="#">POLITICA DE PRIVACIDADE</a></li>
         </ul>
@@ -410,29 +422,31 @@
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="./js/bundle.js"></script>
     <script src="js/menu_hamb.js"></script>
-    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery-3.6.0.min.js"></script>
-
     <script>
         $('.owl-carousel').owlCarousel({
-            rtl: true,
             loop: true,
             margin: 10,
-            nav: true,
+            responsiveClass: true,
             responsive: {
                 0: {
-                    items: 1
+                    items: 1,
+                    nav: true
                 },
                 600: {
-                    items: 3
+                    items: 3,
+                    nav: false
                 },
                 1000: {
-                    items: 5
+                    items: 3,
+                    nav: true,
+                    loop: false
                 }
             }
         })
     </script>
+
 </body>
 
 </html>
